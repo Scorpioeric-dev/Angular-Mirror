@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { Row, Col, PageHeader } from "antd";
 
+
 export default class display extends Component {
   render() {
-    console.log(this.props.employee.photoPath);
     return (
       <div className="main">
         <Row className="row">
